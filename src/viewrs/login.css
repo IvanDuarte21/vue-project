@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  margin-top: 146px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center h1 {
+  color: #000000;
+  font-family: "Mulish";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40.16px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.center p {
+  font-family: "Mulish";
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 15.06px;
+}
+
+.center input {
+  color: #e9eef2;
+  width: 375px;
+  height: 35px;
+}
+
+.campo-2 {
+  margin-top: 59px;
+}
+.descripty {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.keyRemember {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.keyRemember p {
+  color: #000000;
+  font-family: "Mulish";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20.08px;
+}
+
+.keyRemember button {
+  border-radius: 4px;
+  gap: 10px;
+  color: #ffffff;
+  margin-left: 78px;
+  width: 149px;
+  height: 48px;
+  background-color: #070202da;
+}
+
+.keyRemember p button {
+  font-family: "Mulish";
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 15.06px;
+}
+
+.footer img {
+  /* /* background-image: url(./imagens/footer.svg);
+  background-repeat: no-repeat; */
+
+  width: 1920px;
+  margin-top: 135px;
+  /* height: 147px; */
+}
