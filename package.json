@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.4.21",
+    "vue-float-action-button": "^0.7.9",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {

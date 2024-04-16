@@ -1,8 +1,3 @@
-<script setup>
-import Footer from "./assets/footer.svg";
-// export default { name: "Footer", components: { Footer } };
-</script>
-
 <template style="margin: 0px">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,7 +24,7 @@ import Footer from "./assets/footer.svg";
       </form>
       <div class="keyRemember">
         <p>Esqueceu a Senha?</p>
-        <p><button link="./usuarios.vue">Entrar</button></p>
+        <p><button @click="entrar">Entrar</button></p>
       </div>
       <div class="footer">
         <img src="./assets/footer.svg" />
@@ -38,6 +33,20 @@ import Footer from "./assets/footer.svg";
   </main>
 </template>
 
+<script setup>
+import Footer from "./assets/footer.svg";
+
+import { useRouter } from "vue-router";
+
+const router = useRouter();
+
+const entrar = () => {
+  // Redireciona para a rota desejada, por exemplo:
+  router.push("/home");
+};
+
+
+</script>
 <style scoped>
 main {
   width: 100%;
@@ -57,7 +66,7 @@ main {
 
 .box-rigth {
   width: 45%;
-  margin-top: 140px;
+  margin-top: 145px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,7 +107,7 @@ input {
   margin-top: 59px;
 }
 
-.campo-2 input{
+.campo-2 input {
   color: black;
 }
 .descripty {
